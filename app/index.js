@@ -45,12 +45,12 @@ var DragonGenerator = yeoman.generators.Base.extend({
       this.dest.mkdir('tests');
       this.dest.mkdir('tasks');
 
-      this.src.template('_package.json', 'package.json');
-      this.src.template('_bower.json', 'bower.json');
+      this.template('_package.json', 'package.json');
+      this.template('_bower.json', 'bower.json');
       this.src.copy('_gruntfile.js', 'gruntfile.js');
-      this.src.template('_index.html', 'index.html');
-      this.src.template('tasks/_browserify.js', 'tasks/browserify.js');
-      this.src.template('tasks/_uglify.js', 'tasks/uglify.js');
+      this.template('_index.html', 'index.html');
+      this.template('tasks/_browserify.js', 'tasks/browserify.js');
+      this.template('tasks/_uglify.js', 'tasks/uglify.js');
     }
   },
   end: function () {
