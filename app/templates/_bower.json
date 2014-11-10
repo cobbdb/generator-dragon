@@ -1,0 +1,7 @@
+{
+  "name": "<%= name %>",
+  "main": "dist/<%= name %>.min.js",
+  "dependencies": {
+    "dragon": "*"
+  }
+}
