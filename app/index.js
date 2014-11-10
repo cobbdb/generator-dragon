@@ -45,6 +45,7 @@ var DragonGenerator = yeoman.generators.Base.extend({
       this.dest.mkdir('tests');
       this.dest.mkdir('tasks');
 
+      this.src.copy('_.gitignore', '.gitignore');
       this.template('_package.json', 'package.json');
       this.template('_bower.json', 'bower.json');
       this.src.copy('_gruntfile.js', 'gruntfile.js');
