@@ -41,6 +41,9 @@ var DragonGenerator = yeoman.generators.Base.extend({
   writing: {
     app: function () {
       this.dest.mkdir('src');
+      this.dest.mkdir('src/sprites');
+      this.dest.mkdir('src/screens');
+      this.dest.mkdir('assets');
       this.dest.mkdir('dist');
       this.dest.mkdir('tests');
       this.dest.mkdir('tasks');
