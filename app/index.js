@@ -55,6 +55,7 @@ var DragonGenerator = yeoman.generators.Base.extend({
       this.template('_bower.json', 'bower.json');
       this.src.copy('_gruntfile.js', 'gruntfile.js');
       this.template('_index.html', 'index.html');
+      this.src.copy('_game.js', 'src/game.js');
       this.template('tasks/_browserify.js', 'tasks/browserify.js');
       this.template('tasks/_uglify.js', 'tasks/uglify.js');
     }

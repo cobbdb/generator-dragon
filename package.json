@@ -1,6 +1,6 @@
 {
   "name": "generator-dragon",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
@@ -18,7 +18,9 @@
   },
   "files": [
     "app",
-    "sprite"
+    "sprite",
+    "screen",
+    "collision"
   ],
   "keywords": [
     "yeoman-generator"
