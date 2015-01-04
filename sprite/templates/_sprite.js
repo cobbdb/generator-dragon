@@ -1,5 +1,4 @@
 var Dragon = require('dragonjs'),
-    Game = Dragon.Game,
     Point = Dragon.Point,
     Dimension = Dragon.Dimension,
     Rect = Dragon.Rectangle,
@@ -10,7 +9,7 @@ var Dragon = require('dragonjs'),
 module.exports = Sprite({
     name: '<%= name %>',
     collisionSets: [
-        Game.collisions
+        Dragon.collisions
     ],
     mask: Rect(
         Point(),
