@@ -4,6 +4,4 @@ var Dragon = require('dragonjs'),
 Game.addScreens([
     require('./screens/ex1.js')
 ]);
-Game.run({
-    debug: false
-});
+Game.run(false);
