@@ -1,7 +1,6 @@
-var Dragon = require('dragonjs'),
-    Game = Dragon.Game;
+var $ = require('dragonjs');
 
-Game.addScreens([
+$.Game.addScreens([
     require('./screens/ex1.js')
 ]);
-Game.run(false);
+$.Game.run(false);
