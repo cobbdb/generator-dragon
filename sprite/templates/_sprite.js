@@ -5,7 +5,7 @@ module.exports = $.Sprite({
     collisionSets: [
         $.collisions
     ],
-    mask: $.Rect(
+    mask: $.Rectangle(
         $.Point(),
         $.Dimension(64, 64)
     ),
