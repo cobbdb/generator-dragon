@@ -1,5 +1,9 @@
 var $ = require('dragonjs');
 
+/**
+ * @class <%= name %>
+ * @type Dragon.Screen
+ */
 module.exports = $.Screen({
     name: '<%= name %>',
     collisionSets: [
