@@ -35,6 +35,7 @@ var DragonGenerator = yeoman.generators.Base.extend({
 
     this.prompt(prompts, function (props) {
       this.name = props.name;
+      this.title = this.name.charAt(0).toUpperCase() + this.name.slice(1);
       done();
     }.bind(this));
   },

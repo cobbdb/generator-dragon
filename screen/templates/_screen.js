@@ -1,7 +1,7 @@
 var $ = require('dragonjs');
 
 /**
- * @class <%= name %>
+ * @class <%= title %>
  * @type Dragon.Screen
  */
 module.exports = $.Screen({

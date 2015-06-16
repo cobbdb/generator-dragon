@@ -1,7 +1,7 @@
 var $ = require('dragonjs');
 
 /**
- * @class <%= name %>
+ * @class <%= title %>
  * @extends Dragon.Sprite
  */
 module.exports = function (opts) {
