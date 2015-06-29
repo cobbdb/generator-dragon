@@ -3,7 +3,7 @@ module.exports = function (grunt) {
         browserify: {
             build: {
                 files: {
-                    'dist/<%= name %>.js': [
+                    'bin/<%= name %>.js': [
                         'src/*.js'
                     ]
                 }
