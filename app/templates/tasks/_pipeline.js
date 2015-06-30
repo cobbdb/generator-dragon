@@ -4,8 +4,7 @@
             log = {
                 img: [],
                 sound: [],
-                font: [],
-                total: 0
+                font: []
             };
         for (name in log) {
             grunt.file.recurse(
@@ -15,7 +14,6 @@
                     log[name].push(path);
                 }
             );
-            log.total += log[name].length;
         }
         grunt.file.write(
             'assets/directory.json',
