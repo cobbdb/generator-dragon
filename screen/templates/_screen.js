@@ -1,6 +1,4 @@
-var $ = require('dragonjs'),
-    Ex1 = require('../sprites/ex1.js'),
-    Ex2 = require('../sprites/ex2.js');
+var $ = require('dragonjs');
 
 /**
  * @class <%= title %>
@@ -13,8 +11,8 @@ module.exports = function (opts) {
             require('../collisions/ex1.js')
         ],
         sprites: [
-            Ex1(),
-            Ex2()
+            require('../sprites/ex1.js'),
+            require('../sprites/ex2.js')
         ],
         one: {
             ready: function () {
