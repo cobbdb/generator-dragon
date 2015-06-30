@@ -47,6 +47,7 @@ var DragonGenerator = yeoman.generators.Base.extend({
       this.dest.mkdir('assets');
       this.dest.mkdir('assets/img');
       this.dest.mkdir('assets/sound');
+      this.dest.mkdir('assets/font');
       this.dest.mkdir('dist');
       this.dest.mkdir('tests');
       this.dest.mkdir('tasks');
