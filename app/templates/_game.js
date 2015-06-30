@@ -1,6 +1,8 @@
-var $ = require('dragonjs');
+var $ = require('dragonjs'),
+    Ex1 = require('./screens/ex1.js');
 
-$.addScreens([
-    require('./screens/ex1.js')
-]);
-$.run(false);
+$.start(function () {
+    return [
+        Ex1
+    ];
+}, false);
