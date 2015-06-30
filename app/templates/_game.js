@@ -1,8 +1,11 @@
-var $ = require('dragonjs'),
-    Ex1 = require('./screens/ex1.js');
+var $ = require('dragonjs');
+
+$.addFont('ExFont', {
+    src: 'ex-font.TTF'
+});
 
 $.start(function () {
     return [
-        Ex1
+        require('./screens/ex1.js')
     ];
 }, false);
