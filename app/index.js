@@ -61,6 +61,7 @@ var DragonGenerator = yeoman.generators.Base.extend({
       this.template('tasks/_browserify.js', 'tasks/browserify.js');
       this.template('tasks/_uglify.js', 'tasks/uglify.js');
       this.src.copy('tasks/_compress.js', 'tasks/compress.js');
+      this.src.copy('tasks/_pipeline.js', 'tasks/pipeline.js');
     }
   },
   end: function () {
