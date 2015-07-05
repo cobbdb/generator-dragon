@@ -4,8 +4,9 @@ $.addFont('ExFont', {
     src: 'ex-font.TTF'
 });
 
-$.start(function () {
-    return [
-        require('./screens/ex1.js')
-    ];
-}, false);
+$.loadAssets(function () {
+    $.addScreens([
+        require('./screens/ex1.js'),
+        require('./screens/ex2.js')
+    ]);
+});
