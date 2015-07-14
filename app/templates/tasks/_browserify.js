@@ -4,7 +4,7 @@ module.exports = function (grunt) {
             build: {
                 files: {
                     'bin/<%= name %>.js': [
-                        'src/*.js'
+                        'src/game.js'
                     ]
                 }
             }
